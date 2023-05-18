@@ -1,0 +1,26 @@
+nav {
+    height: 128px;
+}
+  
+nav.bg-default {
+    background-color: #443F3F;
+}
+  
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: #fefefe;
+    padding: 0px;
+    margin: auto;
+}
+  
+.navbar-brand > h2 {
+    padding: 0px;
+    margin: 0px;
+}
+  
+.navbar-brand:hover {
+    color: #fefefe;
+}
